@@ -1,66 +1,85 @@
 body{
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     background-color: rgb(216, 204, 241);
 
 }
+header{
+    text-align: center;
+    padding: 32px;
+}
 
-img{
+header img{
     width: 200px;
 }
 
 h1{
-    color: darkviolet;
+    font-size: 52px;
+    color: rgb(148, 0, 211);
 }
 
 main{
     background-color: blueviolet;
-    border: 5px solid blueviolet;
-    border-radius: 5px;
-    text-align: left;
-    padding-left: 50px;
-    padding-right: 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 80px;
-}
-
-h2{
+    padding: 32px;
+    margin: 32px auto;
+    width: 700px;
+    border-radius: 8px;
     color: whitesmoke;
-}
-
-p{
-    color: bisque;
+    text-align: left;
 }
 
 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
     text-align: left;
-    list-style-type: square;
 }
 
 li{
-    color: rgb(237, 197, 148);
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+
 }
 
 a{
-    color: dimgray;
+    color: rgb(36, 3, 102);
     background-color: rgb(237, 237, 213);
-    border: 4px solid rgb(237, 237, 213);
+    padding: 2px 6px;
     border-radius: 4px;
     text-decoration: none;
 }
 
-.last-a{
+a:hover,
+a:active{
+    background-color: rgb(250, 201, 39);
+    text-decoration: underline;
+
+}
+
+
+.extra-important{
+    color: rgb(255, 237, 177);
+    border-color:  rgb(247, 209, 85);
+ }
+
+.highlight{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.afooter{
     color: rgb(46, 46, 46);
     background-color: rgb(224, 177, 57);
-    border: rgb(224, 177, 57);
-    border-radius: 5px;
-    padding: 25px 25px  25px 25px;
-    margin: 25px;
+    padding: 12px 20px;
+    border-radius: 8px;
 }
+
 
 .pfooter{
     color: rgb(46, 46, 46);
-    padding: 25px 25px  25px 25px;
-    margin: 25px;  
+    margin-top: 30px;  
 }

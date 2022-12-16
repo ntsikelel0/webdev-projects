@@ -27,11 +27,12 @@ a{
     border-radius: 4px;
     font-size: 24px;
     margin: 0;
+    text-decoration: none;
 }
 
 a:hover{
     background-color: rgb(180, 12, 90);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 ol{
