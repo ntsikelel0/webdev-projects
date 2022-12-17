@@ -25,6 +25,7 @@ main{
     border-radius: 8px;
     color: whitesmoke;
     text-align: left;
+    margin-top: 0;
 }
 
 ul{
@@ -71,6 +72,17 @@ footer{
     margin-bottom: 100px;
 }
 
+#divanchors{
+    display: flex;
+    justify-content: center;
+}
+
+footer div p{
+    padding: 20px;
+    padding-top: 0;
+    width: 280px;
+}
+
 .afooter{
     color: rgb(46, 46, 46);
     background-color: rgb(224, 177, 57);
@@ -81,5 +93,5 @@ footer{
 
 .pfooter{
     color: rgb(46, 46, 46);
-    margin-top: 30px;  
+    margin-top: 30px;
 }
